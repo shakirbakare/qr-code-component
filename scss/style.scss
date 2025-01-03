@@ -83,3 +83,16 @@ body {
     margin-left: 1.5rem;
   }
 }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+  &__link {
+    color: hsl(228, 45%, 44%);
+
+    &:visited {
+      color: currentColor;
+    }
+  }
+}
